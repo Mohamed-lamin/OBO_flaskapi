@@ -55,4 +55,4 @@ class SubscriptionsAPI(MethodView):
 
         # subscriptions_list = req.get(os.environ.get("AZURE_MANAGEMENT_SUBSCRIPTIONS_URI"), headers=headers).json()
 
-        return jsonify({"name": "hello"})
+        return jsonify({"name": "OBO"})
